@@ -7,6 +7,8 @@
   width: 600px;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 h1{
@@ -45,7 +47,7 @@ figcaption{
 
 .pullquote{
   font: 24px;
-  font-style: italic bold;
+  font-style: italic;
   margin-top: 15px;
   margin-bottom: 15px;
   color: #e3ad0b;
