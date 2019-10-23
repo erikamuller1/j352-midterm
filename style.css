@@ -14,11 +14,13 @@ h1{
   text-align: center;
   letter-spacing: 1px;
   font-style: normal;
+  font-size: 36px;
 }
 
 h2{
 font-family: 'Crimson Text', serif;
 text-align: center;
+font-size: 30px;
 
 }
 #byline {
@@ -46,10 +48,11 @@ figcaption{
   font-style: italic bold;
   margin-top: 15px;
   margin-bottom: 15px;
-  color: black;
+  color: #e3ad0b;
   margin-left: 50px;
   padding-left: 15px;
   border-left: 4px solid #ccc;
+
 }
 .quoter{
   font-size: 10px;
@@ -64,4 +67,16 @@ figcaption{
   margin-right: auto;
   width: 50%;
   padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+.link{
+  text-decoration-line: underline;
+}
+.link:after {
+  content: "]"
+}
+
+.link:before {
+  content: "["
 }
